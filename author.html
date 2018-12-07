@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-8"> <!-- _________ BEGIN NAVIGATION ___________ -->
                     <nav id="nav" role="navigation">
-                     <ul>
+                        <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="events.html">Events</a></li>
                             <li><a href="author.html">Author</a></li>
@@ -164,158 +164,69 @@
 <!-- ================== END SLIDE OUT PANELS  ================= --> 
 <!-- =============== BEGIN #page ==============================-->
 <div id="page"> 
+    <!-- =========== PAGE HEADER ON ALL BUT INDEX PAGES =========================================================================== --> 
+    <!-- _________ Page Header ___________ -->
+    <div class="page-header-primary">
+        <div class="container">
+            <h2>About Author</h2>
+            <ol class="breadcrumb page-header-breadcrumb hidden-xs">
+                <li><a href="index.html" class="link-underline">Home</a></li>
+                <li class="active">About Us</li>
+            </ol>
+        </div>
+        <!-- /.container (for page-header-primary) --> 
+    </div>
+    <!-- /.page-header-primary --> 
     <!-- =========== BEGIN CONTENT FOR THE PAGE =========================================================================== -->
     <div class="page-content" role="main">
-        <div class="container"> 
-            <!-- .container for entire page --> 
-            
-            <!-- uses bigtext.js plugin AND clever use of the responsive utilities and the grid // unless you use the same character count, the results will vary -->
-            <div class="row sixteen-gutter big-text-banner-wrapper">
-                <div class="col-lg-3">
-                    <h3 class="big-text-banner">
-                        <span class="hidden-lg">
-                            digital &middot; democracy
-                        </span>
-                        <span class="visible-lg">
-                            decentralization
-                        </span>
-                        <span class="visible-lg">
-                            democracy
-                        </span>
-                        <span>
-							the digital society
-                            <span class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block">
-                                &middot; Blog
-                            </span>
-                        </span>
-                        <span class="visible-lg">
-                            digital &middot; liberty
-                        </span>
-                        <span class="visible-lg">
-                            digital Rights
-                        </span>
-                    </h3>
-                </div>
-                <div class="col-lg-9 visible-lg">
-                    <h3 class="big-text-banner big-text-main-headline">
-                        <span>
-                            Digitzen
-                        </span>
-                    </h3>
-                </div>
-            </div>
-            <!-- .row .sixteen-gutter --> 
-            
-            <!-- _________ SLICK SLIDER SINGLE CAROUSEL AND COLUMN EQUAL HEIGHT ___________ -->
-            <div class="row sixteen-gutter">
-                <div class="col-sm-7 col-md-8">
-                    <div class="featured-carousel single-item-carousel slick-dots-left fade-hover-img loading-slick">
-                        <div class="slick-slider-item">
-                            <figure> <a href="blog/6-9-2018.html"><img src="assets/post-images/blog/6-9-2018/image1.jpg" alt=""></a>
-                                <figcaption class="info-text-box">Credit: Eric Simon. Cryptocurrency and blockchain terminology gets thrown around by so many different people in conversation without everyone really understanding what they are saying. Eric takes a look at what is a mainnet, and what exactly is an airdrop so you can make better blockchain and cryptocurrency choices.</figcaption>
-                            </figure>
-                        </div>
-                        <!--/.slick-slider-item-->
-                        <div class="slick-slider-item">
-                            <figure> <a href="blog/6-5-2018.html"><img src="assets/post-images/blog/6-5-2018/image4.jpg" alt=""></a>
-                                <figcaption class="info-text-box">Credit: Eric Simon. The cryptocurrency world is one full of innovation, creativity, new outstanding technology. Here are five things that it needs to have to make all of our lives and cryptocurrency investments easier.</figcaption>
-                            </figure>
-                        </div>
-                        <!--/.slick-slider-item-->
-                        
-                      
-                    </div>
-                </div>
-                <!--/.col-x-x-->
+        <div class="container">
+            <div class="row about-page"><!-- uses Masonry/Isotope script :: columns must have a size for all breakpoints -->
+                <div class="grid-sizer"></div>
+                <!-- required for fluid masonry layout -->
+                <div class="gutter-sizer"></div>
+                <!-- required for fluid masonry layout -->
                 
-                <hr class="visible-xs vertical-spacer vertical-spacer-xs">
-                <!-- add some vertical spacing when stacked -->
-                <div class="col-sm-5 col-md-4">
-                    <div class="column-inner column-featured">
-                        <h3 class="h2 column-featured-headline" align="center">Faith</h3>
-                        <p class="lead"> Freedom is the most valuable asset that a human can possess. Freedom is the right to act, speak, or think how you want without any authoritative intervention. </p>
-                        <p align="right"> <a href="#" class="link-underline">James Madison</a>. </p>
-                        <p> </p>
-                        <span class="column-bg-fake">
-                            <!-- this is a fake column that follows the height of the carousel image -->
-                        </span>
+                <div class="post person">
+                    <div class="inner">
+                        <div class="image"> <img src="../img/layer_18.png" class="img-responsive" alt="" /> </div>
+                        <div class="text">
+                            <h4 class="title">Eric Simon</h4>
+                            <p>Social influencers graduated from USC Annenberg School of Communication, solid social network and writing skill. Experienced blogger in financial, crypto and real estate.</p>
+                            <ul class="social-icon-list">
+								<li><a href="https://www.linkedin.com/in/eric-simon-3a675b53"><i class="fa fa-2x fa-fw fa-linkedin"></i></a></li>
+                                <li><a href="https://t.me/alphatoken"><i class="fa fa-2x fa-fw fa-paper-plane"></i></a></li>
+                               
+                            </ul>
+                        </div>
                     </div>
-                    <!--/.column-inner .column-featured--> 
+                    <!--/ .inner --> 
                 </div>
-                <!--/.col-x-x--> 
+                <!--/ .post.person -->
+                
+                <!--<div class="post person">
+                    <div class="inner">
+                        <div class="image"> <img src="../img/layer_1.png" class="img-responsive" alt="" /> </div>
+                        <div class="text">
+                            <h4 class="title">Waiting for you</h4>
+                            <p> </p>
+                            <ul class="social-icon-list">
+                                <ul class="social-icon-list">
+								<li><a href="#"><i class="fa fa-2x fa-fw fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-2x fa-fw fa-paper-plane"></i></a></li>
+                            </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>-->
+                <!--/ .post.person -->
+                
+                
             </div>
-            <!--/.row sixteen-gutter--> 
-            
-            <!-- VERTICAL SPACING -->
-            <hr class="vertical-spacer vertical-spacer-lg">
-            
-            <!-- _________ CALL TO ACTION ___________ -->
-            <div class="call-to-action"> 
-                <!-- call to action is set up for one or more lines, if more than one line it centers -->
-                <h3 class="call-to-action-text">The Tools of The Digitzen</h3>
-                <a class="btn btn-call-to-action btn-lg" href="../toolkit.html" role="button">Download</a> </div>
-            <!-- /.call-to-action --> 
-            
-            <!-- VERTICAL SPACING -->
-            <hr class="vertical-spacer vertical-spacer-lg">
-            <div class="headline-inline">
-                <h3 class="headline"> Featured </h3>
-                <a class="headline-link" href="blog.html"><i class="ti ti-arrow-right"></i> See More</a> </div>
-            <!-- /.headline-inline -->
-            
-            <div class="multi-item-slick slick-dots-left fade-hover-img">
-                <div class="slick-slider-item"> <a href="blog/6-9-2018.html">
-                    <figure> <img data-lazy="assets/post-images/blog/6-9-2018/image1.jpg" alt="">
-                        <figcaption>
-                            <h3>What exactly is a Mainnet? An Airdrop?</h3>
-                           
-                        </figcaption>
-                    </figure>
-                    </a>
-                    
-                </div>
-                <!-- /.slick-slider-item -->
-                <div class="slick-slider-item"> <a href="blog/6-5-2018.html">
-                    <figure> <img data-lazy="assets/post-images/blog/6-5-2018/image4.jpg" alt="">
-                        <figcaption>
-                            <h3>Five Things the Crypto World Needs NOW</h3>
-                           
-                        </figcaption>
-                    </figure>
-                    </a>
-                    
-                </div>
-                <!-- /.slick-slider-item -->
-                <div class="slick-slider-item"> <a href="blog/5-29-2018.html">
-                    <figure> <img data-lazy="assets/post-images/blog/img/invest.gif" alt="">
-                        <figcaption>
-                            <h3>Five Types Of Crypto Investors</h3>
-                           
-                        </figcaption>
-                    </figure>
-                    </a>
-                   
-                </div>
-                <div class="slick-slider-item"> <a href="blog/5-25-2018.html">
-                    <figure> <img data-lazy="assets/post-images/blog/img/wrong_way.jpg" alt="">
-                        <figcaption>
-                            <h3>The False Hope of The Bitcoin Success Stories</h3>
-                           
-                        </figcaption>
-                    </figure>
-                    </a>
-                    
-                </div>
-				
-                <!-- /.slick-slider-item -->
-               
-            </div>
-            <hr class="vertical-spacer vertical-spacer-lg">
-            
-            <!-- /.headline-inline --> 
-
+            <!--/ .row --> 
         </div>
-        <!-- / .container --> </div>
+        <!--/ .container --> 
+    </div>
     <!-- /.page-content role=main --> 
     <!--=========== END CONTENT FOR THE PAGE ============================================================ --> 
 </div>

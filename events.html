@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-8"> <!-- _________ BEGIN NAVIGATION ___________ -->
                     <nav id="nav" role="navigation">
-                     <ul>
+                       <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="events.html">Events</a></li>
                             <li><a href="author.html">Author</a></li>
@@ -167,100 +167,141 @@
     <!-- =========== BEGIN CONTENT FOR THE PAGE =========================================================================== -->
     <div class="page-content" role="main">
         <div class="container"> 
-            <!-- .container for entire page --> 
+            <!-- .container for entire page -->
             
-            <!-- uses bigtext.js plugin AND clever use of the responsive utilities and the grid // unless you use the same character count, the results will vary -->
-            <div class="row sixteen-gutter big-text-banner-wrapper">
-                <div class="col-lg-3">
-                    <h3 class="big-text-banner">
-                        <span class="hidden-lg">
-                            digital &middot; democracy
-                        </span>
-                        <span class="visible-lg">
-                            decentralization
-                        </span>
-                        <span class="visible-lg">
-                            democracy
-                        </span>
-                        <span>
-							the digital society
-                            <span class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block">
-                                &middot; Blog
-                            </span>
-                        </span>
-                        <span class="visible-lg">
-                            digital &middot; liberty
-                        </span>
-                        <span class="visible-lg">
-                            digital Rights
-                        </span>
-                    </h3>
-                </div>
-                <div class="col-lg-9 visible-lg">
-                    <h3 class="big-text-banner big-text-main-headline">
-                        <span>
-                            Digitzen
-                        </span>
-                    </h3>
-                </div>
+            <div class="headline-inline">
+                <h3 class="headline"> What’s Going On? </h3>
             </div>
-            <!-- .row .sixteen-gutter --> 
+            <!-- /.headline-inline --> 
             
-            <!-- _________ SLICK SLIDER SINGLE CAROUSEL AND COLUMN EQUAL HEIGHT ___________ -->
-            <div class="row sixteen-gutter">
-                <div class="col-sm-7 col-md-8">
-                    <div class="featured-carousel single-item-carousel slick-dots-left fade-hover-img loading-slick">
-                        <div class="slick-slider-item">
-                            <figure> <a href="blog/6-9-2018.html"><img src="assets/post-images/blog/6-9-2018/image1.jpg" alt=""></a>
-                                <figcaption class="info-text-box">Credit: Eric Simon. Cryptocurrency and blockchain terminology gets thrown around by so many different people in conversation without everyone really understanding what they are saying. Eric takes a look at what is a mainnet, and what exactly is an airdrop so you can make better blockchain and cryptocurrency choices.</figcaption>
-                            </figure>
-                        </div>
-                        <!--/.slick-slider-item-->
-                        <div class="slick-slider-item">
-                            <figure> <a href="blog/6-5-2018.html"><img src="assets/post-images/blog/6-5-2018/image4.jpg" alt=""></a>
-                                <figcaption class="info-text-box">Credit: Eric Simon. The cryptocurrency world is one full of innovation, creativity, new outstanding technology. Here are five things that it needs to have to make all of our lives and cryptocurrency investments easier.</figcaption>
-                            </figure>
-                        </div>
-                        <!--/.slick-slider-item-->
-                        
-                      
-                    </div>
-                </div>
-                <!--/.col-x-x-->
+            <!-- BEGIN tabs-left these are tabs on the left on larger viewports and it turns into an accordion (collapse) on small viewports -->
+            <div class="tabs-left"> 
                 
-                <hr class="visible-xs vertical-spacer vertical-spacer-xs">
-                <!-- add some vertical spacing when stacked -->
-                <div class="col-sm-5 col-md-4">
-                    <div class="column-inner column-featured">
-                        <h3 class="h2 column-featured-headline" align="center">Faith</h3>
-                        <p class="lead"> Freedom is the most valuable asset that a human can possess. Freedom is the right to act, speak, or think how you want without any authoritative intervention. </p>
-                        <p align="right"> <a href="#" class="link-underline">James Madison</a>. </p>
-                        <p> </p>
-                        <span class="column-bg-fake">
-                            <!-- this is a fake column that follows the height of the carousel image -->
-                        </span>
+                <!--begin tabs going in wide content -->
+                <ul class="nav nav-tabs content-tabs" id="tab-example-1" role="tablist">
+                    <li class="active"><a href="#events" role="tab" data-toggle="tab">Events</a></li>
+                    <li><a href="#blog" role="tab" data-toggle="tab">Recent Blog Posts</a></li>
+                    
+                </ul>
+                
+                <!--/.nav-tabs.content-tabs -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="events">
+                        <div class="pane-content clearfix">
+                            <ul class="list-unstyled media-list">
+                                <li> 
+                                    <!-- remember that all the content inside the <li> is a link taht's why you don't put links inside the .media-list-content or they won't work --> 
+                                    <a href="#">
+                                    <div class="media-list-visual">
+                                        <div class="media-list-date">
+                                            <div class="media-list-date-inner">
+                                                <span class="day">
+                                                    2
+                                                </span>
+                                                <span class="month">
+                                                    Aug
+                                                </span>
+                                                <span class="year">
+                                                    2018
+                                                </span>
+                                            </div>
+                                            <!-- / .media-list-date-inner --> 
+                                        </div>
+                                        <!-- / .media-list-date --> 
+                                    </div>
+                                    <!-- / .media-list-visual --> 
+                                    <!-- if this goes in a side bar, the text must be truncated using a plugin for this -->
+                                    <div class="media-list-content">
+                                        <p>Are you ready to submit your creative works for the Pasadena Alpha Muse? Email us at Creators@Atoken.org. Let us know if you are a Mac or PC and we will send you the Alpha Publisher. Once you have downloaded the publisher, you can enter your video or written creation into the contest with just a few clicks!<br>
+										Once you have finished, you can then check out all the other entries by downloading the Alpha Browser on IOS (Android is coming soon!)<br>
+										 or need a hand? Email us at Media@Atoken.org<br>
+										Submissions close August 2 </p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> 
+                                    <!-- / end link that surrounds the .media-list list item --> 
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.pane-content --> 
+                        
                     </div>
-                    <!--/.column-inner .column-featured--> 
+                    <!--/.tab-pane -->
+                    
+                    <div class="tab-pane" id="blog">
+                        <div class="pane-content">
+                            <ul class="list-unstyled media-list">
+                                <li> <a href="blog/6-9-2018.html">
+                                    <div class="media-list-visual"><img src="assets/post-images/blog/6-9-2018/image1.jpg" alt="" /></div>
+                                    <!-- / .media-list-visual --> 
+                                    <!-- if this goes in a side bar, the text must be truncated using a plugin for this -->
+                                    <div class="media-list-content">
+                                        <p>
+                                            <span class="ti ti-calendar">
+                                            </span>
+                                            June 9, 2018 – Cryptocurrency and blockchain terminology gets thrown around by so many different people in conversation without everyone really understanding what they are saying. Eric takes a look at what is a mainnet, and what exactly is an airdrop so you can make better blockchain and cryptocurrency choices. </p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> </li>
+                                <li> <a href="blog/6-5-2018.html">
+                                    <div class="media-list-visual"><img src="assets/post-images/blog/6-5-2018/image4.jpg" alt="" /></div>
+                                    <!-- / .media-list-visual -->
+                                    <div class="media-list-content">
+                                        <p>
+                                            <span class="ti ti-calendar">
+                                            </span>
+                                            June 5, 2018 – The cryptocurrency world is one full of innovation, creativity, new outstanding technology. Here are five things that it needs to have to make all of our lives and cryptocurrency investments easier.</p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> </li>
+                                <li> <a href="blog/5-29-2018.html">
+                                    <div class="media-list-visual"><img src="assets/post-images/blog/img/invest.gif" alt="" /></div>
+                                    <!-- / .media-list-visual -->
+                                    <div class="media-list-content">
+                                        <p>
+                                            <span class="ti ti-calendar">
+                                            </span>
+                                            May 29, 2018 – Investing in cryptocurrency is a hot topic right now, with hundreds of thousands of people looking to find the next Bitcoin. This has led to some very interesting types of cryptocurrency investors that you see all the time. </p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> </li>
+                                <li> <a href="blog/5-25-2018.html">
+                                    <div class="media-list-visual"><img src="assets/post-images/blog/img/wrong_way.jpg" alt="" /></div>
+                                    <!-- / .media-list-visual -->
+                                    <div class="media-list-content">
+                                        <p>
+                                            <span class="ti ti-calendar">
+                                            </span>
+                                             May 25, 2018 – Bitcoin stories about rags to riches and 80 million dollar pizzas make for great headlines. However, these stories undercut the reality behind investing in cryptocurrencies with false hope.</p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> </li>
+                                <li> <a href="blog/5-22-2018.html">
+                                    <div class="media-list-visual"><img src="assets/post-images/blog/img/drinks.gif" alt="" /></div>
+                                    <!-- / .media-list-visual -->
+                                    <div class="media-list-content">
+                                        <p>
+                                            <span class="ti ti-calendar">
+                                            </span>
+                                            May 22, 2018 – The cryptocurrency and blockchain industry, like any traditional industry, has its own set of celebrities. These are the movers and shakers of the crypto industry. </p>
+                                    </div>
+                                    <!-- / .media-list-content --> 
+                                    </a> </li>
+                            </ul>
+                        </div>
+                        <!--/.pane-content --> 
+                    </div>
+                    <!--/.tab-pane -->
                 </div>
-                <!--/.col-x-x--> 
+                <!--/.tab-content --> 
             </div>
-            <!--/.row sixteen-gutter--> 
-            
-            <!-- VERTICAL SPACING -->
-            <hr class="vertical-spacer vertical-spacer-lg">
-            
-            <!-- _________ CALL TO ACTION ___________ -->
-            <div class="call-to-action"> 
-                <!-- call to action is set up for one or more lines, if more than one line it centers -->
-                <h3 class="call-to-action-text">The Tools of The Digitzen</h3>
-                <a class="btn btn-call-to-action btn-lg" href="../toolkit.html" role="button">Download</a> </div>
-            <!-- /.call-to-action --> 
+            <!-- /END tabs-left --> 
             
             <!-- VERTICAL SPACING -->
             <hr class="vertical-spacer vertical-spacer-lg">
             <div class="headline-inline">
                 <h3 class="headline"> Featured </h3>
-                <a class="headline-link" href="blog.html"><i class="ti ti-arrow-right"></i> See More</a> </div>
+                </div>
             <!-- /.headline-inline -->
             
             <div class="multi-item-slick slick-dots-left fade-hover-img">
@@ -310,12 +351,12 @@
                 <!-- /.slick-slider-item -->
                
             </div>
-            <hr class="vertical-spacer vertical-spacer-lg">
-            
-            <!-- /.headline-inline --> 
+            <!-- /.multi-item-slick --> 
 
+            <!-- /.row --> 
         </div>
-        <!-- / .container --> </div>
+        <!-- / .container --> 
+    </div>
     <!-- /.page-content role=main --> 
     <!--=========== END CONTENT FOR THE PAGE ============================================================ --> 
 </div>
